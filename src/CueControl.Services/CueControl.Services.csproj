@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\CueControl.DAL\CueControl.DAL.csproj" />
+    <Folder Include="PlayerService\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="PlayerService\" />
+    <ProjectReference Include="..\CueControl.DAL\CueControl.DAL.csproj" />
   </ItemGroup>
 
 </Project>
