@@ -10,9 +10,6 @@ namespace CueControl.DAL.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int TeamId { get; set; } // Reference to the team the player belongs to
-                                        // Add other properties as needed, e.g., age, skill level, etc.
-
         public int Ranking { get; set; }
     }
 }

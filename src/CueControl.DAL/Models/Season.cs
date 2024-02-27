@@ -12,9 +12,5 @@ namespace CueControl.DAL.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public int Year { get; set; }
-        public List<Match> Matches { get; set; }
-        public List<Standing> TeamStandings { get; set; } // Standings for teams
-        public List<PlayerStanding> PlayerStandings { get; set; } // Standings for players
-                                                                  // Add other properties as needed
     }
 }

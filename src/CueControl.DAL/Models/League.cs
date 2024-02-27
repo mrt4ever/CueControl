@@ -13,8 +13,7 @@ namespace CueControl.DAL.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public List<Team> Teams { get; set; }
-        public List<Player> Players { get; set; }
-        public List<Season> Seasons { get; set; }
+        public List<LeagueSeason> Seasons { get; set; }
         // Add other properties as needed
     }
 }

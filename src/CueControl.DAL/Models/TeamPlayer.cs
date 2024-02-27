@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace CueControl.DAL.Models
 {
-    public class PlayerRanking
+    public class TeamPlayer
     {
         public int Id { get; set; }
-        public int PlayerId { get; set; }
-        public int SeasonId { get; set; }
-        public double StrikeRate { get; set; }
-        // Add other properties as needed
+        public int TeamId { get; set; } // Reference to the team the player belongs to
+        public int PlayerId { get; set; } // Reference to the team the player belongs to
 
+        public Team Team { get; set; }
         public Player Player { get; set; }
-        public Season Season { get; set; }
     }
 }

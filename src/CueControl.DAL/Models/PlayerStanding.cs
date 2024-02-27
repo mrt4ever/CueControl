@@ -17,5 +17,9 @@ namespace CueControl.DAL.Models
         public int TotalPlayed { get; set; }
         public int Points { get; set; }
         // Add other properties as needed
+
+        public Player Player { get; set; }
+        public League League { get; set; }
+        public Season Season { get; set; }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CueControl.DAL.Models
 {
-    public class Standing
+    public class TeamStanding
     {
         public int Id { get; set; }
         public int TeamId { get; set; }
@@ -17,5 +17,9 @@ namespace CueControl.DAL.Models
         public int Draws { get; set; }
         public int Points { get; set; }
         // Add other properties as needed
+
+        public Team Team { get; set; }
+        public League League { get; set; }
+        public Season Season { get; set; }  
     }
 }
